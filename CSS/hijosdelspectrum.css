@@ -97,7 +97,7 @@
   color: var(--h2-color);/*#4d469c*/
 }
 #main div[id^='post-body-'] h3 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: var(--h3-color);
 }
 
