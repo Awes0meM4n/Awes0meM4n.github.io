@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lora|Raleway|Shadows+Into+Light+Two');
+
+.codigo {
+  align: center;
+  text-align: left;
+  font-weight: bold;
+  background-color: #152560;
+  border-color: #002156;
+  border-style: solid;
+  color: white;
+  font-family: Courier;
+  line-height: 24px;
+  margin-left: 2%;
+  padding: 5px 15px 5px 15px;
+  width: 90%;
+}
+
+.sentencia {
+  align: center;
+  border-color: #FFFFFF;
+  border-style: solid;
+  font-family: Courier;
+  line-height: 24px;
+  margin-left: 2%;
+  padding: 5px 15px 5px 15px;
+  width: 90%;
+}
+
+.content {
+  margin-top:-50px;
+}
+
+.post-body h2 {
+  /*text-transform: uppercase;*/
+  font-size: 140%;
+  color: #4d469c;
+  text-align: left;
+}
+
+.post-body img {
+  box-shadow: 0 0 1em 0.3em #999999;
+}
+
+/* Colores para distintas citas */
+.clearBoth { clear:both; }
+.cita.cita-info{border-color:#46B8DA;}
+.cita.cita-info .cita-icono{color:#46B8DA;}
+.cita.cita-logro{border-color:#4CAE4C;}
+.cita.cita-logro .cita-icono{color:#4CAE4C;}
+.cita.cita-warning{border-color:#EEA236;}
+.cita.cita-warning .cita-icono{color:#EEA236;}
+.cita.cita-peligro{border-color:#D43F3A;}
+.cita.cita-peligro .cita-icono{color:#D43F3A;}
+
+.cita {
+    font-size:1.5em;
+    width:90%;
+    margin:auto;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.cita .cita-icono{
+    text-align:center;
+    overflow:hidden;
+    margin: 0 auto;
+}
+
+.cita .cita-texto{
+    width:80%;
+    padding: 0 0 0 .4em;
+    margin: 0 .4em;
+    border-left:5px solid #E6E6E6;
+    border-color:inherit;
+    font-size:1.2em;
+}
+
+.cita > div { float:left; }
+
+/* Fuente para el cuerpo del Post */
+#main div[id^='post-body-'] {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    font-size: 1.2em;
+}
+
+/* CSS para los enlaces del cuerpo del Post */
+#main div[id^='post-body-'] a {
+    text-decoration: none;
+    color: black;
+    border-bottom: .4em solid aquamarine;
+    transition: background-color .5s, color .5s;
+}
+#main div[id^='post-body-'] a:visited {
+    color: black;
+}
+#main div[id^='post-body-'] a:hover {
+    text-decoration: none;
+    background-color: aquamarine;
+}
