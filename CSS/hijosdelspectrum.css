@@ -3,6 +3,7 @@
     --texto-post-color: black;
     --h2-color: #251a9c;
     --h3-color: midnightblue;
+    --cita-texto-color: darkslategray;
     --no-visitado-bg-color: aquamarine;
     --visitado-bg-color: lightskyblue;
 }
@@ -73,6 +74,7 @@
     border-color: inherit;
     font-size: 1.2em;
     line-height: 1.2em;
+    color: var(--cita-texto-color);
 }
 
 .cita > div { float: left; }
