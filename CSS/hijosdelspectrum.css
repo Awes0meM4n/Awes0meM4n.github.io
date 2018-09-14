@@ -6,6 +6,7 @@
     --cita-texto-color: darkslategray;
     --no-visitado-bg-color: aquamarine;
     --visitado-bg-color: lightskyblue;
+    --nota-bg-color: beige;
 }
 
 .codigo {
@@ -130,4 +131,10 @@
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.nota {
+    background-color: var(--nota-bg-color);
+    padding: .8em;
+    font-size: .8em;
 }
