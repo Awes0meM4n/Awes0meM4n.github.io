@@ -9,6 +9,10 @@
     --nota-bg-color: beige;
 }
 
+.oculto {
+    display: none;
+}
+
 .codigo {
   align: center;
   text-align: left;
