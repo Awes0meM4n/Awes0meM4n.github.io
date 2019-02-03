@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="no mas abusos - Plataforma de afectados por los abusos de las grandes compaías.">
     <meta name="author" content="no mas abusos">
-    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="icon" href="https://nomasabusos.github.io/img/favicon.ico">
 
     <title>no mas abusos</title>
 
@@ -27,7 +27,7 @@
                 <nav class="nav nav-masthead justify-content-center">
                     <a class="nav-link active" href="#">Inicio</a>
                     <a class="nav-link" href="https://blog.nomasabusos.es/">Blog</a>
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#modalContacto">Contacto</a>
                 </nav>
             </div>
         </header>
@@ -57,7 +57,7 @@
                         <h2>Contacta</h2>
                         <p>Envíanos tu caso para recomendarte qué hacer.</p>
                         <p>
-                            <a class="btn btn-outline-warning" href="http://nomasabusos.es/contacto.html" role="button">Contacta &raquo;</a>
+                            <a class="btn btn-outline-warning" href="http://nomasabusos.es/contacto.html" data-toggle="modal" data-target="#modalContacto" role="button">Contacta &raquo;</a>
                         </p>
                     </div>
                     <div class="col-md-4">
@@ -74,6 +74,24 @@
 
         </main>
 
+        <!-- Modal contacto -->
+        <div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="modalContactoLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalContactoLabel">Contacto</h5>
+                    </div>
+                    <div class="modal-body">
+                        Envíanos un correo a <a href="mailto:info@nomasabusos.es">info@nomasabusos.es</a> o deja tus comentarios en nuestro <a href="https://blog.nomasabusos.es/">blog</a>.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-success" onclick="javascript: window.location.href='mailto:info@nomasabusos.es';">Enviar correo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <footer class="mastfoot mt-auto">
             <div class="inner">
                 <p>Cover template for
