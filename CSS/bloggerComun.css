@@ -104,6 +104,10 @@
   height: 100%;
 }
 
+.imgAjustada {
+  width: 100%;
+}
+
 .nota {
   background-color: var(--nota-bg-color);
   padding: .8em;
