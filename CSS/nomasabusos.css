@@ -57,7 +57,7 @@ ul, ol {
 
 .site-title {
   font-size: calc(3.6rem + .4vw);
-  letter-spacing: 3.8vw;
+  letter-spacing: 2.4vw;
   color: white;
 }
 
@@ -65,5 +65,5 @@ ul, ol {
   opacity: 1;
   font-size: calc(1.2rem + .4vw);
   color: yellow;
-  line-height: 4vh;
+  line-height: 1.6rem;
 }
