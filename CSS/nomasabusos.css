@@ -14,6 +14,10 @@ h3 {
   width: auto;
 }
 
+.site-content {
+  border: none;
+}
+
 ul, ol {
   margin-left: 1.2em;
 }
@@ -22,12 +26,13 @@ ul, ol {
   margin-top: 0;
 }
 
-.popular post .item-title {
+.popular-posts .item-title {
   padding-bottom: 0;
   font-weight: bold;
+  color: #900;
 }
 
-.popular post .item-snippet {
+.popular-posts .item-snippet {
   font-size: 80%;
 }
 
@@ -35,4 +40,30 @@ ul, ol {
 [name="Cabecera"] img {
   margin: auto;
   border-radius: 30px;
+}
+
+#blog-pager a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-content {
+  margin-top: 0;
+}
+
+.site-branding {
+  padding: calc(1rem + 1vw) 1rem;
+}
+
+.site-title {
+  font-size: calc(3.6rem + .4vw);
+  letter-spacing: 3.8vw;
+  color: white;
+}
+
+.site-description{
+  opacity: .4;
+  font-size: calc(1.2rem + .4vw);
+  color: yellow;
+  line-height: 4vh;
 }
