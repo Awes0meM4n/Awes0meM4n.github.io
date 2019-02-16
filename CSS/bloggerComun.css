@@ -1,0 +1,120 @@
+:root {
+  /*--texto-post-color: black;*/
+  --cita-texto-color: darkslategray;
+  --no-visitado-bg-color: aquamarine;
+  --visitado-bg-color: lightskyblue;
+  --nota-bg-color: beige;
+}
+
+.oculto {
+  display: none;
+}
+
+.codigo {
+  align: center;
+  text-align: left;
+  font-weight: bold;
+  background-color: #152560;
+  border-color: #002156;
+  border-style: solid;
+  color: white;
+  font-family: Courier;
+  line-height: 24px;
+  margin-left: 2%;
+  padding: 5px 15px 5px 15px;
+  width: 90%;
+}
+
+.sentencia {
+  align: center;
+  border-color: #FFFFFF;
+  border-style: solid;
+  font-family: Courier;
+  line-height: 24px;
+  margin-left: 2%;
+  padding: 5px 15px 5px 15px;
+  width: 90%;
+}
+
+/* Colores para distintas citas */
+.clearBoth { clear:both; }
+.cita.cita-info { border-color:#46B8DA; }
+.cita.cita-info .cita-icono { color:#46B8DA; }
+.cita.cita-logro { border-color:#4CAE4C; }
+.cita.cita-logro .cita-icono { color:#4CAE4C; }
+.cita.cita-warning { border-color:#EEA236; }
+.cita.cita-warning .cita-icono { color:#EEA236; }
+.cita.cita-peligro { border-color:#D43F3A; }
+.cita.cita-peligro .cita-icono { color:#D43F3A; }
+
+.cita {
+  font-size: 1.5em;
+  width: 90%;
+  margin: auto;
+  /*font-family: 'Shadows Into Light Two', cursive;*/
+}
+
+.cita .cita-icono {
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.cita .cita-texto {
+  width: 80%;
+  padding: 0 0 0 .4em;
+  margin: 0 .4em;
+  border-left: 5px solid #E6E6E6;
+  border-color: inherit;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: var(--cita-texto-color);
+}
+
+.cita > div { float: left; }
+
+/* CSS para los enlaces del cuerpo del Post */
+#main div[id^='post-body-'] a {
+  text-decoration: none;
+  color: var(--texto-post-color);
+  border-bottom: .25em solid var(--no-visitado-bg-color);
+  transition: background-color .5s, color .5s;
+}
+#main div[id^='post-body-'] a:visited {
+  color: var(--texto-post-color);
+  border-color: var(--visitado-bg-color);
+}
+#main div[id^='post-body-'] a:hover {
+  text-decoration: none;
+  background-color: var(--no-visitado-bg-color);
+}
+
+/* https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed */
+.containerVideo {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nota {
+  background-color: var(--nota-bg-color);
+  padding: .8em;
+  font-size: .8em;
+}
+
+.botonSolucion {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: .6em .8em;
+  font-size: 1em;
+  border-radius: .5em;
+}
