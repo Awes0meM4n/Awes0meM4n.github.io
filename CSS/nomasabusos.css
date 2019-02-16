@@ -30,3 +30,9 @@ ul, ol {
 .popular post .item-snippet {
   font-size: 80%;
 }
+
+/* Centra y redondea las esquinas del logo*/
+[name="Cabecera"] img {
+  margin: auto;
+  border-radius: 30px;
+}
