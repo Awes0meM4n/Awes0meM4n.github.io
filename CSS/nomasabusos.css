@@ -62,7 +62,7 @@ ul, ol {
 }
 
 .site-description{
-  opacity: .4;
+  opacity: 1;
   font-size: calc(1.2rem + .4vw);
   color: yellow;
   line-height: 4vh;
