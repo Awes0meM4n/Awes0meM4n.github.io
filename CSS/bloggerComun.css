@@ -154,6 +154,22 @@
     background: url(https://Awes0meM4n.github.io/Logos/reddit/Reddit.svg) no-repeat;
 }
 
+.gh-icono {
+    background: url(https://Awes0meM4n.github.io/Logos/github/github-square.svg) no-repeat;
+}
+
+.so-icono {
+    background: url(https://Awes0meM4n.github.io/Logos/stackoverflow/stackoverflow.svg) no-repeat;
+}
+
+.rss-icono {
+    background: url(https://Awes0meM4n.github.io/Logos/rss/rss-icon.svg) no-repeat;
+}
+
+.it-icono {
+    background: url(https://Awes0meM4n.github.io/Logos/itch.io/itchio-color-padding.svg) no-repeat;
+}
+
 .icono {
     -moz-transition: all 300ms ease-in-out 0s;
     -webkit-transition: all 300ms ease-in-out 0s;
