@@ -122,3 +122,54 @@
   font-size: 1em;
   border-radius: .5em;
 }
+
+/* Iconos redes sociales */
+
+#contenido-social {
+    /* Marca el tamaño de los iconos sociales */
+    --icono-size: 3rem;
+}
+
+.fb-icono { 
+    background: url(https://Awes0meM4n.github.io/Logos/facebook/Facebook_logo_500x500.svg) no-repeat;
+}
+
+.tw-icono { 
+    background: url(https://Awes0meM4n.github.io/Logos/twitter/twitter_square_color.svg) no-repeat;
+}
+
+.in-icono {
+    background: url(https://Awes0meM4n.github.io/Logos/instagram/Instagram_logo_2016.svg) no-repeat;
+}
+
+.yt-icono {
+    background: url(https://Awes0meM4n.github.io/Logos/youTube/YouTube_square_2017.svg) no-repeat;
+}
+
+.li-icono {
+    background: url(https://Awes0meM4n.github.io/Logos/linkedin/Linkedin.svg) no-repeat;
+}
+
+.re-icono {
+    background: url(https://Awes0meM4n.github.io/Logos/reddit/Reddit.svg) no-repeat;
+}
+
+.icono {
+    -moz-transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+    border-radius: 50%;
+    float: left;
+    margin: 0 .5rem .5rem 0;
+    opacity: 0.8;
+    width: var(--icono-size);
+    height: var(--icono-size);
+    padding-left: var(--icono-size);
+    background-size: cover;
+}
+
+.icono:hover {
+    border-radius: 0;
+    opacity: 1;
+}
