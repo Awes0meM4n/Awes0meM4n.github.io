@@ -1,0 +1,57 @@
+body {
+  line-height: 1.5;
+  font-family: "Open Sans",arial,x-locale-body,sans-serif;
+}
+.main {
+  z-index: 999;
+  width: 90%;
+  margin: auto;
+}
+div {
+  border-radius: 1rem;
+  margin: 2rem auto;
+}
+.titulo {
+  background-color: #008000;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+.enunciado {
+  text-align:justify;
+}
+.enlaces {
+  color:#694a01;
+  background-color:#d8d0bd;
+  padding:0.5em;
+  padding-left: 1em;
+}
+.enlaces > div {
+  margin:10px 0 0 0;
+  padding:5px;
+  background-color:#b1a27e;
+  background:linear-gradient(to right, #7e6f4a, #d8d0bd);
+}
+.enlaces > div:hover {
+  background:linear-gradient(to right, #558000, transparent);
+}
+.enlaces a {
+  color: white;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+.enlaces a:hover {
+  text-shadow: 2px 2px 8px #d8d0bd;
+}
+.solucion, .recursos{
+  color: #558000;
+}
+.iconos {
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: #558000;
+  text-decoration:none;
+}
