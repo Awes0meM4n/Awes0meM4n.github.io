@@ -74,17 +74,17 @@
 .cita > div { float: left; }
 
 /* CSS para los enlaces del cuerpo del Post */
-#main div[id^='post-body-'] a {
+#main div[id^='post-body-']:not(.separator) > a {
   text-decoration: none;
   color: var(--texto-post-color);
   border-bottom: .25em solid var(--no-visitado-bg-color);
   transition: background-color .5s, color .5s;
 }
-#main div[id^='post-body-'] a:visited {
+#main div[id^='post-body-']:not(.separator) > a:visited {
   color: var(--texto-post-color);
   border-color: var(--visitado-bg-color);
 }
-#main div[id^='post-body-'] a:hover {
+#main div[id^='post-body-']:not(.separator) > a:hover {
   text-decoration: none;
   background-color: var(--no-visitado-bg-color);
 }
