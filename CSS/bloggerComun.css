@@ -189,3 +189,7 @@
     border-radius: 0;
     opacity: 1;
 }
+
+pre > code {
+    font-size: initial;
+}
